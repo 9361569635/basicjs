@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="basicjs.js"></script>
+</head>
+<body>
+    <h1>yes or no</h1>
+    <h2 id="q">1.is harini is human?</h2>
+    <button id="b1">yes</button>
+    <button id="b2">no</button>
+    <script>
+        document.getElementById("b1").onclick=function(){
+            document.getElementById("q").innerHTML="yes";
+        }
+        document.getElementById("b2").onclick=function(){
+            document.getElementById("q").innerHTML="no";
+        }
+        
+    </script>
+
+</body>
+</html>
